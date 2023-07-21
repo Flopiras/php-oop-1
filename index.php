@@ -16,3 +16,6 @@ var_dump($movie_1->IntroduceDirector());
 $movie_2 = new Movie('Avatar 2', 'Action', 'James Cameron', $actor_2);
 var_dump($movie_2);
 var_dump($movie_2->IntroduceDirector());
+
+// array di films
+$movies = [$movie_1, $movie_2];
