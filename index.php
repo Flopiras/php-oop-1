@@ -37,6 +37,19 @@ $movies = [$movie_1, $movie_2];
         <header>
             <h1 class="text-danger my-4 text-center">Movies List</h1>
         </header>
+        <main>
+            <ul class="d-flex ">
+                <?php foreach ($movies as $movie) : ?>
+                    <li class="mx-3">
+                        <h4><?= $movie->title ?></h4>
+                        <ul>
+                            <li><?= $movie->IntroduceDirector() ?></li>
+                            <li><strong>Attore principale : </strong><?= $movie->mainActor ?></li>
+                        </ul>
+                    </li>
+                <?php endforeach ?>
+            </ul>
+        </main>
     </div>
 </body>
 
