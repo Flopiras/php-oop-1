@@ -12,6 +12,6 @@ class Actor
 
     public function getFullName()
     {
-        echo $this->firstName . $this->lastName;
+        return $this->firstName . $this->lastName;
     }
 }
