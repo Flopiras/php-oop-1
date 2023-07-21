@@ -16,4 +16,8 @@ class Movie
     {
         echo 'questo film è stato diretto da ' . $this->director;
     }
-}
+};
+
+
+$movie_1 = new Movie('Eragon', 'fantasy', 'Stefan Fangmeier');
+var_dump($movie_1);
