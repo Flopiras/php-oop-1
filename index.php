@@ -11,4 +11,9 @@ class Movie
         $this->genre = $_genre;
         $this->director = $_director;
     }
+
+    public function IntroduceDirector()
+    {
+        echo 'questo film è stato diretto da ' . $this->director;
+    }
 }
