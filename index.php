@@ -9,13 +9,13 @@ $actor_2 = new Actor('Sam', 'Worth');
 
 // istanza film 1
 $movie_1 = new Movie('Eragon', 'fantasy', 'Stefan Fangmeier', $actor_1);
-var_dump($movie_1);
-var_dump($movie_1->IntroduceDirector());
+// var_dump($movie_1);
+// var_dump($movie_1->IntroduceDirector());
 
 // istanza film 2
 $movie_2 = new Movie('Avatar 2', 'Action', 'James Cameron', $actor_2);
-var_dump($movie_2);
-var_dump($movie_2->IntroduceDirector());
+// var_dump($movie_2);
+// var_dump($movie_2->IntroduceDirector());
 
 // array di films
 $movies = [$movie_1, $movie_2];
@@ -33,7 +33,11 @@ $movies = [$movie_1, $movie_2];
 </head>
 
 <body>
-
+    <div class="container">
+        <header>
+            <h1 class="text-danger my-4 text-center">Movies List</h1>
+        </header>
+    </div>
 </body>
 
 </html>
